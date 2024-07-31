@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("Fondo2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 50px;
+}
+
+.FG{
+display: flex;
+min-width: 250px;
+}
+
+
+.general{
+    /*Espacio editable*/
+    width: 90vw;
+    height: 90vh;
+    float: auto;
+    flex: 1;
+    h1{
+        font-size: 2.75em;
+    }
+}
+
+
+.info{
+    /*Espacio escribible*/
+    float: left;
+    width: 45vw;
+    margin-bottom: 30px;
+    min-width: 250px;
+}
+
+
+.fa{
+    
+    width: 45vw;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.Galeria{
+margin-top: 40px;
+font-size: 2.75em;
+}
+
+.xp{
+    width: 90vw;
+    text-align: center;
+}
+
+p, ul{
+    
+    font-size: 1.25em;
+}
+footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+img {
+    border-radius: 8px;
+    box-shadow: 0 0 30px #000;
+    margin: 20px;
+}
+
+/*------------------------------------*/
+
+.hsm .te .h .sl .ts{
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        minimax(150px, 1fr)
+    );
+    gap: 32px;
+}
+
+/*------------------------------------*/
+
+.hsm1{
+    width: 20%;
+    height: auto;
+}
+
+.hsm2, .hsm3{
+    width: 30%;
+    height: auto;
+}
+
+
+
+.sl2{
+    width: 20%;
+    height: auto;
+}
+ .sl1, .sl3{
+    width: 30%;
+    height: auto;
+}
+
+
+
+.h2{
+    width: 20%;
+    height: auto;
+}
+.h1, .h3{
+    width: 30%;
+    height: auto;
+}
+
+
+
+.TE1, .TE3{
+    width: 20%;
+    height: auto;
+}
+.TE2{
+    width: 18%;
+    height: auto;
+}
